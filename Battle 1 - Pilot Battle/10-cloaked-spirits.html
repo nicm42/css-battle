@@ -1,0 +1,49 @@
+<div class="bottom"></div>
+<div class="tall"></div>
+<div class="circle left"></div>
+<div class="circle middle"></div>
+<div class="circle right"></div>
+<style>
+  body {
+    background: #62306d;
+    margin: 0;
+  }
+  div {
+    background: #f7ec7d;
+    position: absolute;
+  }
+  .bottom {
+    width: 300px;
+    height: 100px;
+    bottom: 0;
+    left: 50px;
+  }
+  .tall {
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    left: 150px;
+  }
+  .circle {
+    border-radius: 50%;
+    width: 100px;
+    aspect-ratio: 1;
+  }
+  .left,
+  .right {
+    background: #e38f66;
+    border-color: #aa445f;
+    bottom: 50px;
+    left: 50px;
+    box-shadow: inset 0 0 0 20px #aa445f;
+  }
+  .right {
+    left: 250px;
+  }
+  .middle {
+    background: #aa445f;
+    top: 50px;
+    left: 150px;
+    box-shadow: inset 0 0 0 20px #e38f66;
+  }
+</style>

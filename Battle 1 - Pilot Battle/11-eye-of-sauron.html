@@ -1,0 +1,39 @@
+<div class="eye"></div>
+<div class="left"></div>
+<div class="right"></div>
+<style>
+  body {
+    background: #191210;
+  }
+  div {
+    position: absolute;
+  }
+  .eye {
+    background: #84271c;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1;
+    top: 125px;
+    left: 175px;
+    box-shadow: 0 0 0 25px #191210, 0 0 0 45px #eca03d;
+  }
+  .left,
+  .right {
+    border-radius: 50%;
+    width: 60px;
+    aspect-ratio: 1;
+    border: 20px solid #eca03d;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  .left {
+    rotate: -45deg;
+    top: 101px;
+    left: 52px;
+  }
+  .right {
+    rotate: 135deg;
+    top: 100px;
+    right: 50px;
+  }
+</style>
