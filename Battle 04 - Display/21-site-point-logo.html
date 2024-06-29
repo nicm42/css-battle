@@ -1,0 +1,47 @@
+<div class="orange long"></div>
+<div class="orange short"></div>
+<div class="blue long"></div>
+<div class="blue short"></div>
+<style>
+  body {
+    background: #222;
+  }
+  .long {
+    width: 30px;
+    height: 90px;
+  }
+  .short {
+    width: 30px;
+    height: 80px;
+  }
+  .orange {
+    position: absolute;
+    background: #f2994a;
+  }
+  .orange.long {
+    top: 60px;
+    left: 160px;
+    rotate: 45deg;
+  }
+  .orange.short {
+    top: 110px;
+    left: 150px;
+    rotate: -45deg;
+    border-top-left-radius: 10px;
+  }
+  .blue {
+    position: absolute;
+    background: #2d9cdb;
+  }
+  .blue.long {
+    top: 150px;
+    left: 210px;
+    rotate: 45deg;
+  }
+  .blue.short {
+    top: 110px;
+    left: 220px;
+    rotate: -45deg;
+    border-bottom-right-radius: 10px;
+  }
+</style>

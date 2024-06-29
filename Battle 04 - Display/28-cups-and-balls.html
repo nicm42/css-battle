@@ -1,0 +1,51 @@
+<div class="circle brown top a"></div>
+<div class="semi yellow top b"></div>
+<div class="semi brown top c"></div>
+<div class="circle yellow top d"></div>
+<div class="semi yellow bottom a"></div>
+<div class="circle brown bottom b"></div>
+<div class="circle yellow bottom c"></div>
+<div class="semi brown bottom d"></div>
+<style>
+  body {
+    background: #1a4341;
+  }
+  div {
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1;
+  }
+  .brown {
+    background: #998235;
+  }
+  .yellow {
+    background: #f3ac3c;
+  }
+  .circle {
+    border-radius: 50%;
+  }
+  .semi.top {
+    border-radius: 50% 50% 0 0;
+  }
+  .semi.bottom {
+    border-radius: 0 0 50% 50%;
+  }
+  .top {
+    top: 90px;
+  }
+  .bottom {
+    bottom: 90px;
+  }
+  .a {
+    left: 70px;
+  }
+  .b {
+    left: 140px;
+  }
+  .c {
+    right: 140px;
+  }
+  .d {
+    right: 70px;
+  }
+</style>
