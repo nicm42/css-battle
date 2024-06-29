@@ -1,0 +1,66 @@
+<div class="left">
+  <div class="a"></div>
+  <div class="b"></div>
+</div>
+<div class="right">
+  <div class="c small"></div>
+  <div class="d small"></div>
+  <div class="e"></div>
+  <div class="f"></div>
+</div>
+<style>
+  body {
+    background: #62306d;
+  }
+  div {
+    position: absolute;
+  }
+  .left {
+    background: #f7ec7d;
+    width: 140px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+  }
+  .right {
+    background: #e38f66;
+    width: 60px;
+    height: 100px;
+    top: 100px;
+    left: 240px;
+  }
+  .left > div,
+  .right > div {
+    background: #62306d;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .right > .small {
+    width: 20px;
+  }
+  .a {
+    top: -20px;
+    left: -20px;
+  }
+  .b {
+    bottom: -20px;
+    left: -20px;
+  }
+  .c {
+    top: -10px;
+    left: -10px;
+  }
+  .d {
+    bottom: -10px;
+    left: -10px;
+  }
+  .e {
+    top: -20px;
+    right: -20px;
+  }
+  .f {
+    bottom: -20px;
+    right: -20px;
+  }
+</style>
