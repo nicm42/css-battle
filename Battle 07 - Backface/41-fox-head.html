@@ -1,0 +1,56 @@
+<div class="main left"></div>
+<div class="main right"></div>
+<div class="circle bottom left"></div>
+<div class="circle bottom right"></div>
+<div class="circle middle left"></div>
+<div class="circle middle right"></div>
+<style>
+  body {
+    background: #293462;
+  }
+  div {
+    position: absolute;
+  }
+  .main {
+    background: #fe5f55;
+    width: 50px;
+    height: 140px;
+    top: 80px;
+  }
+  .main.left {
+    left: 150px;
+    border-top-right-radius: 40px;
+  }
+  .main.right {
+    right: 150px;
+    border-top-left-radius: 40px;
+  }
+  .circle {
+    background: #293462;
+  }
+  .bottom {
+    width: 50px;
+    height: 40px;
+    bottom: 80px;
+  }
+  .bottom.left {
+    border-top-right-radius: 60px;
+    left: 150px;
+  }
+  .bottom.right {
+    border-top-left-radius: 60px;
+    right: 150px;
+  }
+  .middle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 140px;
+  }
+  .middle.left {
+    left: 165px;
+  }
+  .middle.right {
+    right: 165px;
+  }
+</style>
