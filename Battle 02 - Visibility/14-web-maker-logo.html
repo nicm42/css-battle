@@ -1,0 +1,39 @@
+<div class="left red"></div>
+<div class="left orange"></div>
+<div class="right orange"></div>
+<div class="right red"></div>
+<style>
+  body {
+    background: #f2f2b6;
+  }
+  div {
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top: 85px;
+  }
+  .red {
+    background: #fd4602;
+  }
+  .orange {
+    background: #ff6d00;
+  }
+  .left {
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+  }
+  .left.red {
+    left: 80px;
+  }
+  .left.orange {
+    left: 60px;
+  }
+  .right {
+    clip-path: polygon(100% 100%, 50% 0, 0 100%);
+  }
+  .right.orange {
+    right: 60px;
+  }
+  .right.red {
+    right: 80px;
+  }
+</style>

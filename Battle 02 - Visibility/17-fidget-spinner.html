@@ -1,0 +1,48 @@
+<div class="light top"></div>
+<div class="light bottom"></div>
+<div class="dark left"></div>
+<div class="middle"></div>
+<div class="dark right"></div>
+<style>
+  body {
+    background: #09042a;
+  }
+  div {
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+  .light {
+    background: #f5bb9c;
+    width: 60px;
+    left: 170px;
+  }
+  .top {
+    top: 68px;
+    box-shadow: 0 0 0 10px #09042a;
+    z-index: 1;
+  }
+  .bottom {
+    bottom: 68px;
+    box-shadow: 0 0 0 10px #09042a;
+    z-index: 1;
+  }
+  .dark {
+    background: #09042a;
+    width: 60px;
+    top: 120px;
+    box-shadow: 0 0 0 10px #e78481;
+  }
+  .dark.left {
+    left: 110px;
+  }
+  .dark.right {
+    right: 110px;
+  }
+  .middle {
+    background: #e78481;
+    width: 70px;
+    top: 115px;
+    left: 170px;
+  }
+</style>
