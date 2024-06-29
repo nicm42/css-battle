@@ -1,0 +1,36 @@
+<div class="circle top-left"></div>
+<div class="circle top-right"></div>
+<div class="circle bottom-left"></div>
+<div class="circle bottom-right"></div>
+<style>
+  body {
+    background: #1a4341;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+    background: #f3ac3c;
+  }
+  .circle {
+    width: 50%;
+    aspect-ratio: 1;
+  }
+  .top-left {
+    top: -50px;
+    border-bottom-right-radius: 50%;
+  }
+  .top-right {
+    top: -50px;
+    right: 0px;
+    border-bottom-left-radius: 50%;
+  }
+  .bottom-left {
+    bottom: -49px;
+    border-top-right-radius: 50%;
+  }
+  .bottom-right {
+    bottom: -49px;
+    right: 0px;
+    border-top-left-radius: 50%;
+  }
+</style>
