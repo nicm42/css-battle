@@ -1,0 +1,64 @@
+<div class="yellow vertical middle"></div>
+<div class="yellow vertical left"></div>
+<div class="yellow vertical right"></div>
+<div class="yellow horizontal"></div>
+<div class="green vertical left"></div>
+<div class="green vertical right"></div>
+<div class="green horizontal top"></div>
+<div class="green horizontal bottom"></div>
+<style>
+  body {
+    background: #1a4341;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .yellow {
+    background: #f3ac3c;
+  }
+  .vertical {
+    width: 30px;
+    height: 200px;
+  }
+  .yellow.middle {
+    height: 100%;
+    left: 185px;
+  }
+  .yellow.left {
+    left: 65px;
+  }
+  .yellow.right {
+    right: 64px;
+  }
+  .horizontal {
+    height: 30px;
+    width: 270px;
+  }
+  .yellow.horizontal {
+    top: 179px;
+    left: 65px;
+  }
+  .green {
+    background: #998235;
+  }
+  .green.vertical {
+    height: 150px;
+  }
+  .green.left {
+    left: 125px;
+  }
+  .green.right {
+    right: 125px;
+  }
+  .green.horizontal {
+    bottom: 31px;
+    left: 65px;
+    z-index: -1;
+  }
+  .green.top {
+    width: 120px;
+    top: 120px;
+    left: 125px;
+  }
+</style>
