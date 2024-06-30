@@ -1,0 +1,80 @@
+<div class="main">
+  <div class="spoke one"></div>
+  <div class="spoke two"></div>
+  <div class="spoke three"></div>
+  <div class="spoke four"></div>
+  <div class="spoke five"></div>
+  <div class="spoke six"></div>
+  <div class="patch big"></div>
+  <div class="patch medium"></div>
+  <div class="patch small"></div>
+</div>
+<style>
+  body {
+    background: #1a4341;
+  }
+  div {
+    background: #f3ac3c;
+    position: absolute;
+  }
+  .main {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 100px;
+    left: 150px;
+  }
+  .spoke {
+    width: 10px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  .one {
+    top: -50px;
+    left: 45px;
+  }
+  .two {
+    rotate: 60deg;
+    top: -15px;
+    right: -15px;
+  }
+  .three {
+    rotate: 120deg;
+    bottom: -14px;
+    right: -15px;
+  }
+  .four {
+    bottom: -30px;
+    left: 45px;
+  }
+  .five {
+    rotate: -120deg;
+    bottom: -5px;
+    left: 1px;
+  }
+  .six {
+    rotate: -60deg;
+    top: -5px;
+    left: 1px;
+  }
+  .patch {
+    background: #998235;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+  .big {
+    width: 30px;
+    top: 20px;
+    left: 20px;
+  }
+  .medium {
+    width: 20px;
+    bottom: 15px;
+    left: 40px;
+  }
+  .small {
+    width: 10px;
+    top: 20px;
+    right: 20px;
+  }
+</style>

@@ -1,0 +1,73 @@
+<div class="main">
+  <div class="handle left">
+    <div class="inner left"></div>
+  </div>
+  <div class="handle right">
+    <div class="inner right"></div>
+  </div>
+  <div class="circle"></div>
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+</div>
+<style>
+  body {
+    background: #293462;
+  }
+  div {
+    background: #fff1c1;
+    position: absolute;
+  }
+  .main {
+    width: 150px;
+    height: 100px;
+    top: 100px;
+    left: 125px;
+    border-radius: 0 0 50px 50px;
+  }
+  .handle {
+    width: 60px;
+    height: 60px;
+  }
+  .inner {
+    background: #293462;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+  }
+  .left {
+    border-radius: 50px 0 0 50px;
+  }
+  .right {
+    border-radius: 0 50px 50px 0;
+  }
+  .handle.left {
+    left: -60px;
+  }
+  .handle.right {
+    right: -60px;
+  }
+  .inner.left {
+    left: 10px;
+  }
+  .circle {
+    background: #fe5f55;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 40px;
+    left: 90px;
+  }
+  .line {
+    background: #fe5f55;
+    width: 40px;
+    height: 10px;
+    border-radius: 10px;
+    left: 20px;
+  }
+  .top {
+    top: 20px;
+  }
+  .bottom {
+    top: 40px;
+  }
+</style>

@@ -1,0 +1,79 @@
+<div class="cloud">
+  <div class="left"></div>
+  <div class="middle"></div>
+  <div class="right"></div>
+</div>
+<div class="blue a"></div>
+<div class="blue b"></div>
+<div class="blue c"></div>
+<div class="blue d"></div>
+<div class="blue e"></div>
+<div class="blue f"></div>
+<div class="blue g"></div>
+<style>
+  body {
+    background: #6592cf;
+  }
+  div {
+    background: #243d83;
+    position: absolute;
+  }
+  .cloud > div {
+    background: #eeb850;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+  .left,
+  .right {
+    width: 40px;
+    top: 112px;
+  }
+  .left {
+    left: 22px;
+  }
+  .middle {
+    width: 60px;
+    top: 92px;
+    left: 57px;
+  }
+  .right {
+    left: 112px;
+  }
+  .blue {
+    background: #243d83;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 130px;
+  }
+  .blue::after {
+    content: '';
+    position: absolute;
+    background: #243d83;
+    width: 10px;
+    height: 50px;
+    bottom: -40px;
+    left: 5px;
+  }
+  .a {
+    left: 40px;
+  }
+  .b {
+    left: 85px;
+  }
+  .c {
+    left: 130px;
+  }
+  .d {
+    left: 205px;
+  }
+  .e {
+    left: 250px;
+  }
+  .f {
+    left: 295px;
+  }
+  .g {
+    left: 340px;
+  }
+</style>
