@@ -1,0 +1,48 @@
+<div class="globe">
+  <div class="ellipse"></div>
+  <div class="vertical"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .globe {
+    background: linear-gradient(
+      #4f77ff 30px,
+      #191919 30px,
+      #191919 40px,
+      #4f77ff 40px,
+      #4f77ff 70px,
+      #191919 70px,
+      #191919 80px,
+      #4f77ff 80px,
+      #4f77ff 110px,
+      #191919 110px,
+      #191919 120px,
+      #4f77ff 120px
+    );
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 75px;
+    left: 125px;
+  }
+  .ellipse {
+    width: 106px;
+    height: 106px;
+    top: 12px;
+    left: 12px;
+    rotate: 45deg;
+    border: 10px solid #191919;
+    border-radius: 0 106px 0 106px;
+  }
+  .vertical {
+    background: #191919;
+    width: 10px;
+    height: 100%;
+    left: 70px;
+  }
+</style>

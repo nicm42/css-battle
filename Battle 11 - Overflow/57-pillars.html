@@ -1,0 +1,63 @@
+<div class="square">
+  <div class="top-left circle"></div>
+  <div class="top-right circle"></div>
+  <div class="bottom-right circle"></div>
+  <div class="bottom-left circle"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    background: #4f77ff;
+    position: absolute;
+  }
+  .square {
+    width: 110px;
+    height: 110px;
+    top: 95px;
+    left: 145px;
+  }
+  .circle {
+    background: #f9e492;
+    width: 45px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 7.5px 7.5px 0 7.5px #191919;
+  }
+  .circle::before {
+    content: '';
+    position: absolute;
+    background: #4f77ff;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .top-left {
+    translate: -20px -20px;
+  }
+  .top-right {
+    translate: 85px -20px;
+    scale: -1 1;
+  }
+  .bottom-right {
+    translate: 85px 85px;
+    scale: -1 -1;
+  }
+  .bottom-left {
+    translate: -20px 85px;
+    scale: 1 -1;
+  }
+  .top {
+    top: -20px;
+  }
+  .left {
+    left: -20px;
+  }
+  .bottom {
+    bottom: -20px;
+  }
+  .right {
+    right: -20px;
+  }
+</style>

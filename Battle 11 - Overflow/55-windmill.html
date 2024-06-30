@@ -1,0 +1,41 @@
+<div class="blue top"></div>
+<div class="blue bottom"></div>
+<div class="yellow left"></div>
+<div class="yellow right"></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #dd6b4d;
+    position: absolute;
+    clip-path: circle(50% at 50% 100%);
+  }
+  .blue {
+    background: #4f77ff;
+  }
+  .top {
+    rotate: 90deg;
+    top: 50px;
+    left: 200px;
+  }
+  .bottom {
+    rotate: -90deg;
+    top: 150px;
+    left: 100px;
+  }
+  .yellow {
+    background: #f9e492;
+  }
+  .left {
+    top: 50px;
+    left: 100px;
+  }
+  .right {
+    rotate: 180deg;
+    top: 150px;
+    left: 200px;
+  }
+</style>
