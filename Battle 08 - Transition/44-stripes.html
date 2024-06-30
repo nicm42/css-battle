@@ -1,0 +1,43 @@
+<div class="main"></div>
+<div class="circle left"></div>
+<div class="circle right"></div>
+<style>
+  body {
+    background: #1a4341;
+  }
+  div {
+    position: absolute;
+  }
+  .main {
+    background: #f3ac3c;
+    width: 250px;
+    height: 180px;
+    top: 60px;
+    left: 50px;
+    background-image: linear-gradient(
+      #f3ac3c 0px 20px,
+      #1a4341 20px 40px,
+      #f3ac3c 40px 60px,
+      #1a4341 60px 80px,
+      #f3ac3c 80px 100px,
+      #1a4341 100px 120px,
+      #f3ac3c 120px 140px,
+      #1a4341 140px 160px,
+      #f3ac3c 160px 180px,
+      #1a4341 180px 200px
+    );
+  }
+  .circle {
+    background: #1a4341;
+    width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 0px;
+  }
+  .left {
+    left: -150px;
+  }
+  .right {
+    right: -150px;
+  }
+</style>

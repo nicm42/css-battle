@@ -11,3 +11,4 @@ I don't aim to have the smallest number of characters, but get to 100% (or 99.9%
 - [Battle 5 - Inline](https://github.com/nicm42/css-battle/blob/main/Battle%2005%20-%20Inline)
 - [Battle 6 - Conic](https://github.com/nicm42/css-battle/blob/main/Battle%2006%20-%20Conic)
 - [Battle 7 - Backface](https://github.com/nicm42/css-battle/blob/main/Battle%2007%20-%20Backface)
+- [Battle 8 - Transition](https://github.com/nicm42/css-battle/blob/main/Battle%2008%20-%20Transition)
