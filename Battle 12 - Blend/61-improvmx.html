@@ -1,0 +1,71 @@
+<div class="line bottom"></div>
+<div class="line top"></div>
+<div class="hull left"></div>
+<div class="hull right"></div>
+<div class="hull middle"></div>
+<div class="cabin"></div>
+<div class="funnel"></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    border-color: #5dbcf9;
+    position: absolute;
+  }
+  .line {
+    height: 10px;
+    background: #5dbcf9;
+    z-index: 1;
+  }
+  .bottom {
+    width: 109px;
+    top: 224px;
+    left: 146px;
+    box-shadow: 0px -10px 0px 0px #191919, 0px 10px 0px 0px #191919,
+      0px 20px 0px 0px #191919, 0px 30px 0px 0px #191919;
+  }
+  .top {
+    width: 200px;
+    top: 203px;
+    left: 100px;
+    box-shadow: 0px -10px 0px 0px #191919, 0px 11px 0px 0px #191919;
+  }
+  .hull {
+    border-top: 11px solid #5dbcf9;
+    width: 80px;
+    height: 90px;
+    top: 142px;
+  }
+  .left {
+    border-left: 11px solid #5dbcf9;
+    rotate: -30deg;
+    left: 140px;
+  }
+  .right {
+    border-right: 11px solid #5dbcf9;
+    rotate: 30deg;
+    right: 140px;
+  }
+  .middle {
+    rotate: 90deg;
+    top: 120px;
+    left: 115px;
+  }
+  .cabin {
+    width: 81px;
+    height: 51px;
+    border: 11px solid #5dbcf9;
+    border-bottom-width: 0;
+    top: 96px;
+    left: 150px;
+  }
+  .funnel {
+    width: 30px;
+    height: 20px;
+    border: 11px solid #5dbcf9;
+    border-bottom-width: 0;
+    top: 66px;
+    left: 175px;
+  }
+</style>

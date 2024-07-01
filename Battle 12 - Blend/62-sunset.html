@@ -1,0 +1,46 @@
+<div class="main">
+  <div class="sun"></div>
+  <div class="hill-left"></div>
+  <div class="hill-right"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    background: #dd6b4d;
+    position: absolute;
+  }
+  .main {
+    width: 150px;
+    height: 200px;
+    background: #f2ad43;
+    border-radius: 75px 75px 20px 20px;
+    top: 50px;
+    left: 125px;
+    overflow: hidden;
+  }
+  .sun {
+    width: 60px;
+    aspect-ratio: 1;
+    background: #fff58f;
+    border-radius: 50%;
+    top: 90px;
+    left: 45px;
+  }
+  .hill-left {
+    width: 100px;
+    height: 100px;
+    background: #e08027;
+    border-radius: 0 100px 0 0;
+    bottom: 0;
+  }
+  .hill-right {
+    width: 100px;
+    height: 100px;
+    background: #824b20;
+    border-radius: 100px 0 0 0;
+    bottom: 0;
+    right: 0;
+  }
+</style>

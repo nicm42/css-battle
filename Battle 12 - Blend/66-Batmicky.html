@@ -1,0 +1,76 @@
+<div class="wings">
+  <div class="circle side a"></div>
+  <div class="circle bottom b"></div>
+  <div class="circle bottom c"></div>
+  <div class="circle side d"></div>
+  <div class="gap">
+    <div class="body"></div>
+    <div class="ear l"></div>
+    <div class="ear r"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    background: #f2ad43;
+    position: absolute;
+  }
+  .wings {
+    width: 240px;
+    height: 80px;
+    top: 100px;
+    left: 80px;
+  }
+  .circle {
+    background: #191919;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+  .side {
+    width: 100px;
+  }
+  .bottom {
+    width: 200px;
+  }
+  .a {
+    left: -55px;
+  }
+  .b {
+    bottom: -180px;
+    left: -40px;
+  }
+  .c {
+    bottom: -180px;
+    right: -40px;
+  }
+  .d {
+    right: -55px;
+  }
+  .gap {
+    background: #191919;
+    width: 80px;
+    height: 30px;
+    left: 80px;
+    border-radius: 0 0 10px 10px;
+  }
+  .body {
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    left: 30px;
+  }
+  .ear {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 5px;
+  }
+  .l {
+    left: 25px;
+  }
+  .r {
+    right: 25px;
+  }
+</style>
