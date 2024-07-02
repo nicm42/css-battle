@@ -1,0 +1,66 @@
+<div class="eye left">
+  <div class="circle l">
+    <div class="pupil"></div>
+  </div>
+</div>
+<div class="nose"></div>
+<div class="eye right">
+  <div class="circle r">
+    <div class="pupil"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    background: #e08027;
+    position: absolute;
+  }
+  .eye {
+    width: 115px;
+    height: 114px;
+  }
+  .left {
+    top: 77px;
+    left: 90px;
+    border-radius: 0 50% 50%;
+  }
+  .right {
+    top: 68px;
+    right: 79px;
+    border-radius: 50% 0 50% 50%;
+    border: 10px solid #191919;
+  }
+  .nose {
+    width: 80px;
+    height: 40px;
+    rotate: 45deg;
+    top: 161px;
+    left: 147px;
+    z-index: -1;
+  }
+  .circle {
+    background: #191919;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    top: 12px;
+  }
+  .l {
+    left: 11px;
+  }
+  .r {
+    left: 13px;
+  }
+  .pupil {
+    background: #191919;
+    width: 12px;
+    height: 6px;
+    border: 9px solid #e08027;
+    border-bottom: none;
+    border-radius: 100px 100px 0 0;
+    top: 36px;
+    left: 30px;
+  }
+</style>

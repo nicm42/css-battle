@@ -1,0 +1,58 @@
+<div class="body">
+  <div class="eye"></div>
+</div>
+<div class="wing l"></div>
+<div class="wing r"></div>
+<style>
+  body {
+    background: #998235;
+  }
+  div {
+    position: absolute;
+  }
+  .body {
+    background: #eff33c;
+    width: 150px;
+    height: 75px;
+    border-radius: 50px;
+    top: 150px;
+    left: 125px;
+    background-image: linear-gradient(
+      90deg,
+      #191919 0,
+      #191919 25px,
+      #eff33c 25px,
+      #eff33c 35px,
+      #191919 35px,
+      #191919 60px,
+      #eff33c 60px,
+      #eff33c 70px,
+      #191919 70px,
+      #191919 95px,
+      #eff33c 95px,
+      #eff33c 100%
+    );
+  }
+  .eye {
+    background: #191919;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    right: 20px;
+    top: 20px;
+  }
+  .wing {
+    background: #ffffff;
+    width: 75px;
+    height: 75px;
+    top: 75px;
+  }
+  .l {
+    border-radius: 50% 50% 0 50%;
+    left: 125px;
+  }
+  .r {
+    border-radius: 50% 50% 50% 0;
+    right: 125px;
+  }
+</style>

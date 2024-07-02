@@ -1,0 +1,94 @@
+<div class="head">
+  <div class="top"></div>
+  <div class="eye left"></div>
+  <div class="eye right"></div>
+  <div class="white">
+    <div class="mouth a"></div>
+    <div class="mid"></div>
+    <div class="mouth b"></div>
+  </div>
+</div>
+<div class="ear l"></div>
+<div class="ear r"></div>
+<style>
+  body {
+    background: #f3ac3c;
+  }
+  div {
+    background: #998235;
+    position: absolute;
+  }
+  .head {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px 100px 80px 80px;
+    top: 75px;
+    left: 125px;
+    overflow: hidden;
+  }
+  .ear {
+    background: #1a4341;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: -1;
+    border: 10px solid #998235;
+    top: 65px;
+  }
+  .l {
+    left: 115px;
+  }
+  .r {
+    right: 115px;
+  }
+  .top {
+    background: #1a4341;
+    width: 50px;
+    height: 25px;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    left: 50px;
+  }
+  .eye {
+    background: #1a4341;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 60px;
+  }
+  .left {
+    left: 25px;
+  }
+  .right {
+    right: 25px;
+  }
+  .white {
+    background: #ffffff;
+    width: 100px;
+    height: 40px;
+    bottom: 15px;
+    left: 25px;
+    border-radius: 20px 20px 50px 50px;
+  }
+  .mouth {
+    background: transparent;
+    border: 10px solid #1a4341;
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+    width: 20px;
+    height: 10px;
+    top: 10px;
+  }
+  .a {
+    left: 15px;
+  }
+  .b {
+    right: 15px;
+  }
+  .mid {
+    background: #1a4341;
+    width: 10px;
+    height: 30px;
+    top: -10px;
+    left: 45px;
+  }
+</style>

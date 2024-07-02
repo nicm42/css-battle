@@ -1,0 +1,78 @@
+<div class="head">
+  <div class="eye l"></div>
+  <div class="eye r"></div>
+</div>
+<div class="ear left"></div>
+<div class="ear right"></div>
+<div class="trunk">
+  <div class="tusk"></div>
+</div>
+<style>
+  body {
+    background: #998235;
+    margin: 0;
+  }
+  div {
+    width: 100px;
+    background: #1a4341;
+    position: absolute;
+  }
+  .head {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    top: 60px;
+    left: 110px;
+    z-index: -1;
+  }
+  .ear {
+    background: #0b2429;
+    width: 80px;
+    height: 180px;
+    border-radius: 50%;
+    z-index: -2;
+    top: 60px;
+    box-shadow: inset 17px 0 0 0 #1a4341;
+  }
+  .left {
+    left: 50px;
+  }
+  .right {
+    right: 50px;
+    rotate: 180deg;
+  }
+  .eye {
+    background: #0b2429;
+    width: 20px;
+    height: 10px;
+    border-radius: 0 0 100px 100px;
+    border: 11px solid #998235;
+    border-top: none;
+    top: 90px;
+  }
+  .l {
+    left: 40px;
+  }
+  .r {
+    right: 40px;
+  }
+  .trunk {
+    background: #0b2429;
+    width: 40px;
+    height: 120px;
+    bottom: 0;
+    left: 180px;
+    border-radius: 20px 20px 0 0;
+  }
+  .tusk {
+    background: transparent;
+    border: 20px solid #ffffff;
+    border-bottom: 0;
+    border-radius: 90px 90px 0 0;
+    width: 80px;
+    height: 40px;
+    top: 10px;
+    left: -39px;
+    z-index: -1;
+  }
+</style>

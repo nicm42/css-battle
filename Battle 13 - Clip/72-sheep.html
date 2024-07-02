@@ -1,0 +1,85 @@
+<div class="t"></div>
+<div class="tr"></div>
+<div class="r"></div>
+<div class="br"></div>
+<div class="b"></div>
+<div class="bl"></div>
+<div class="l"></div>
+<div class="tl"></div>
+<div class="head">
+  <div class="eye left"></div>
+  <div class="eye right"></div>
+</div>
+<style>
+  body {
+    background: #243d83;
+  }
+  div {
+    width: 60px;
+    height: 50px;
+    background: #6592cf;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .t {
+    top: 65px;
+    left: 170px;
+    z-index: 1;
+  }
+  .tr {
+    top: 85px;
+    right: 130px;
+    rotate: 45deg;
+    z-index: 1;
+  }
+  .r {
+    top: 125px;
+    left: 230px;
+    rotate: 90deg;
+  }
+  .br {
+    bottom: 85px;
+    left: 210px;
+    rotate: 135deg;
+  }
+  .b {
+    bottom: 65px;
+    left: 170px;
+  }
+  .bl {
+    bottom: 85px;
+    right: 210px;
+    rotate: -135deg;
+  }
+  .l {
+    top: 125px;
+    right: 230px;
+    rotate: 90deg;
+  }
+  .tl {
+    top: 85px;
+    left: 130px;
+    rotate: -45deg;
+    z-index: 1;
+  }
+  .head {
+    background: #243d83;
+    width: 60px;
+    height: 60px;
+    top: 115px;
+    left: 170px;
+    box-shadow: 15px 10px 0 0 #6592cf, -15px 10px 0 0 #6592cf,
+      0 20px 0 0 #6592cf;
+  }
+  .eye {
+    width: 10px;
+    height: 10px;
+    top: 15px;
+  }
+  .left {
+    left: 15px;
+  }
+  .right {
+    right: 15px;
+  }
+</style>
