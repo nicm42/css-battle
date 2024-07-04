@@ -1,0 +1,67 @@
+<div class="note a"></div>
+<div class="note b"></div>
+<div class="note c"></div>
+<div class="note d"></div>
+<div class="double"></div>
+<div class="stem quaver"></div>
+<div class="stem semiquaver">
+  <div class="line"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    background: #191919;
+    position: absolute;
+  }
+  .note {
+    background: #fe5f55;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    top: 170px;
+    z-index: 1;
+  }
+  .a {
+    left: 55px;
+  }
+  .b {
+    left: 125px;
+  }
+  .c {
+    background: #a64942;
+    left: 195px;
+  }
+  .d {
+    left: 265px;
+  }
+  .double {
+    border: 10px solid #fe5f55;
+    border-bottom-width: 0;
+    width: 60px;
+    height: 90px;
+    top: 90px;
+    left: 95px;
+  }
+  .stem {
+    border-left: 10px solid #a64942;
+    border-top: 10px solid #a64942;
+    width: 30px;
+    height: 90px;
+    top: 90px;
+  }
+  .quaver {
+    left: 235px;
+  }
+  .semiquaver {
+    border-color: #fe5f55;
+    left: 305px;
+  }
+  .line {
+    background: #fe5f55;
+    width: 30px;
+    height: 10px;
+    top: 10px;
+  }
+</style>

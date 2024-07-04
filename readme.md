@@ -17,3 +17,4 @@ I don't aim to have the smallest number of characters, but get to 100% (or 99.9%
 - [Battle 11 - Overflow](https://github.com/nicm42/css-battle/blob/main/Battle%2011%20-%20Overflow)
 - [Battle 12 - Blend](https://github.com/nicm42/css-battle/blob/main/Battle%2012%20-%20Blend)
 - [Battle 13 - Clip](https://github.com/nicm42/css-battle/blob/main/Battle%2013%20-%20Clip)
+- [Battle 14 - ZIndex](https://github.com/nicm42/css-battle/blob/main/Battle%2014%20-%20ZIndex)

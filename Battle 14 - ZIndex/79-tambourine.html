@@ -1,0 +1,64 @@
+<div class="outer">
+  <div class="bottom"></div>
+</div>
+<div class="overlap"></div>
+<div class="inner t"></div>
+<div class="inner tr"></div>
+<div class="inner br"></div>
+<div class="inner bl"></div>
+<div class="inner tl"></div>
+<style>
+  body {
+    background: #6592cf;
+  }
+  div {
+    background: #6592cf;
+    position: absolute;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .outer {
+    width: 150px;
+    border: 10px solid #243d83;
+    top: 75px;
+    left: 115px;
+    overflow: hidden;
+  }
+  .inner {
+    background: #243d83;
+    width: 10px;
+    border: 11px solid #6592cf;
+    outline: 11px solid #243d83;
+  }
+  .t {
+    top: 65px;
+    left: 185px;
+  }
+  .tr {
+    top: 105px;
+    left: 255px;
+  }
+  .br {
+    top: 175px;
+    left: 255px;
+  }
+  .tl {
+    top: 105px;
+    left: 115px;
+  }
+  .bl {
+    top: 175px;
+    left: 115px;
+  }
+  .bottom {
+    width: 70%;
+    border: 10px solid #243d83;
+    bottom: -60%;
+    left: 15px;
+  }
+  .overlap {
+    width: 100px;
+    bottom: -10px;
+    left: 150px;
+  }
+</style>
