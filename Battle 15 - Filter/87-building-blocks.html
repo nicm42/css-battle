@@ -1,0 +1,69 @@
+<div class="top">
+  <div class="border tr"></div>
+  <div class="border tl"></div>
+</div>
+<div class="btm">
+  <div class="border br"></div>
+  <div class="border bl"></div>
+</div>
+<div class="mid"></div>
+<style>
+  body {
+    background: #f3ac3c;
+  }
+  div {
+    width: 150px;
+    height: 100px;
+    background: #1a4341;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .top {
+    top: 65px;
+    left: 65px;
+  }
+  .btm {
+    bottom: 65px;
+    right: 65px;
+  }
+  .mid {
+    background: #f3ac3c;
+    width: 70px;
+    height: 70px;
+    top: 115px;
+    left: 165px;
+  }
+  .border {
+    background: #f3ac3c;
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+  }
+  .border::after {
+    content: '';
+    position: absolute;
+    background: #1a4341;
+    inset: 0;
+    border-radius: 0 0 10px 0;
+  }
+  .tr {
+    top: 40px;
+    right: 0px;
+  }
+  .tl {
+    top: 90px;
+    right: 50px;
+  }
+  .br::after,
+  .bl::after {
+    border-radius: 10px 0 0 0;
+  }
+  .br {
+    top: 0;
+    left: 50px;
+  }
+  .bl {
+    top: 49px;
+    left: 0;
+  }
+</style>
