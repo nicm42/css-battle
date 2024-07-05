@@ -1,0 +1,82 @@
+<div class="main">
+  <div class="sun"></div>
+  <div class="line left top"></div>
+  <div class="line left mid"></div>
+  <div class="line left btm"></div>
+  <div class="line right top"></div>
+  <div class="line right mid"></div>
+  <div class="line right btm"></div>
+  <div class="line dark top"></div>
+  <div class="line dark mid"></div>
+  <div class="line dark btm"></div>
+</div>
+<style>
+  body {
+    background: #4f77ff;
+  }
+  div {
+    position: absolute;
+  }
+  .main {
+    background: #191919;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+  }
+  .sun {
+    background: #f9e492;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 40px;
+  }
+  .line {
+    background: #f9e492;
+    height: 16px;
+  }
+  .left {
+    left: 0;
+    width: 100px;
+  }
+  .left.btm {
+    bottom: 10px;
+  }
+  .left.mid {
+    bottom: 36px;
+  }
+  .left.top {
+    bottom: 62px;
+  }
+  .right {
+    right: 0;
+    width: 80px;
+  }
+  .right.btm {
+    bottom: 23px;
+  }
+  .right.mid {
+    bottom: 50px;
+  }
+  .right.top {
+    bottom: 75px;
+  }
+  .dark {
+    background: #d6b73f;
+    width: 20px;
+    left: 50%;
+    transform: skewY(-35deg);
+  }
+  .dark.btm {
+    bottom: 17px;
+  }
+  .dark.mid {
+    bottom: 43px;
+  }
+  .dark.top {
+    bottom: 67px;
+  }
+</style>

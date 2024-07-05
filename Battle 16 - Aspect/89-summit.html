@@ -1,0 +1,39 @@
+<div class="circle">
+  <div class="wedge"></div>
+</div>
+<div class="triangle"></div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .circle {
+    background: #f9e492;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+  }
+  .triangle {
+    background: #4f77ff;
+    width: 280px;
+    height: 140px;
+    bottom: 0;
+    left: 60px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  .wedge {
+    background: #191919;
+    width: 180px;
+    height: 90px;
+    bottom: 0;
+    left: 10px;
+    z-index: 1;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+</style>
