@@ -19,3 +19,4 @@ I don't aim to have the smallest number of characters, but get to 100% (or 99.9%
 - [Battle 13 - Clip](https://github.com/nicm42/css-battle/blob/main/Battle%2013%20-%20Clip)
 - [Battle 14 - ZIndex](https://github.com/nicm42/css-battle/blob/main/Battle%2014%20-%20ZIndex)
 - [Battle 15 - Filter](https://github.com/nicm42/css-battle/blob/main/Battle%2015%20-%20Filter)
+- [Battle 16 - Aspect](https://github.com/nicm42/css-battle/blob/main/Battle%2016%20-%20Aspect)
