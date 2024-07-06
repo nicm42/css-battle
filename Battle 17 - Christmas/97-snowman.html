@@ -1,0 +1,77 @@
+<div class="body"></div>
+<div class="head">
+  <div class="eye l"></div>
+  <div class="eye r"></div>
+</div>
+<div class="scarf"></div>
+<div class="hat"></div>
+<style>
+  body {
+    background: #ac474b;
+  }
+  div {
+    position: absolute;
+  }
+  .body {
+    background: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    bottom: 55px;
+    left: 150px;
+  }
+  .head {
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 95px;
+    left: 170px;
+  }
+  .eye {
+    background: #0e1f2b;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 18px;
+  }
+  .l {
+    left: 15px;
+  }
+  .r {
+    right: 15px;
+  }
+  .scarf {
+    background: #ffa63f;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+    top: 143px;
+    left: 170px;
+    box-shadow: 0 -5px 0 0 #ac474b, -5px 5px 0 0 #ac474b, 5px 5px 0 0 #ac474b;
+  }
+  .hat {
+    background: #0e1f2b;
+    width: 40px;
+    height: 45px;
+    top: 55px;
+    left: 180px;
+  }
+  .hat::before {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    height: 10px;
+    top: 15px;
+  }
+  .hat::after {
+    content: '';
+    position: absolute;
+    background: #0e1f2b;
+    width: 60px;
+    height: 5px;
+    left: -10px;
+    bottom: 0;
+  }
+</style>
