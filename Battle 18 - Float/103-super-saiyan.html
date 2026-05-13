@@ -1,0 +1,61 @@
+<div class="ear"></div><div class="ear right"></div>
+<div class="face"><div class="mouth"></div></div>
+<div class="hair l"></div><div class="mid"></div><div class="hair r"></div>
+<style>
+  body {
+    background: #161616;
+  }
+  div {
+    position: absolute;
+  }
+  .face {
+    background: #FFDEB9;
+    width: 80px;
+    height: 75px;
+    top: 141px;
+    left: 160px;
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #FFFFFF 40px, #FFDEB9 40px);
+  }
+  .mouth {
+    background: #161616;
+    width: 20px;
+    height: 10px;
+    top: 55px;
+    left: 30px;
+    border-radius: 0 0 40px 40px;
+  }
+  .ear, .hair {
+    background: #EBAE11;
+    width: 60px;
+    height: 60px;
+    top: 131px;
+    left: 141px;
+    border-radius: 50%;
+    clip-path: polygon(0px 35%, 100% 65%, 100% 100%, 0px 100%);
+  }
+  .right {
+    scale: -1 1;
+    left: 199px;
+  }
+  .l {
+    top: 112px;
+    left: 154px;
+    rotate: 45deg;
+  }
+  .r {
+    top: 112px;
+    left: 185px;
+    rotate: -75deg;
+  }
+  .mid {
+    background: #EBAE11;
+    width: 120px;
+    height: 120px;
+    top: 65px;
+    left: 183px;
+    clip-path: circle(50% at -25px 50%);
+    border-radius: 50%;
+  }
+</style>

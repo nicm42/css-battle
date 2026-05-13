@@ -1,0 +1,46 @@
+<div class="main">
+  <div class="circle b"></div>
+  <div class="circle l"></div>
+  <div class="circle r"></div>
+</div>
+<style>
+  body {
+    background: #161616;
+  }
+  div {
+    position: absolute;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .main {
+    width: 190px;
+    top: 55px;
+    left: 105px;
+    background: radial-gradient(
+      circle,
+      #000000 25px,
+      #e96a23 25px,
+      #e96a23 35px,
+      #000000 35px,
+      #000000 50px,
+      #a22015 50px,
+      #a22015 100px
+    );
+    overflow: hidden;
+  }
+  .circle {
+    border: 15px solid #000000;
+    width: 70px;
+    top: 2.5px;
+  }
+  .b {
+    top: 130px;
+    left: 45px;
+  }
+  .l {
+    left: -29px;
+  }
+  .r {
+    left: 119px;
+  }
+</style>

@@ -21,3 +21,4 @@ I don't aim to have the smallest number of characters, but get to 100% (or 99.9%
 - [Battle 15 - Filter](https://github.com/nicm42/css-battle/blob/main/Battle%2015%20-%20Filter)
 - [Battle 16 - Aspect](https://github.com/nicm42/css-battle/blob/main/Battle%2016%20-%20Aspect)
 - [Battle 17 - Christmas](https://github.com/nicm42/css-battle/blob/main/Battle%2017%20-%20Christmas)
+- [Battle 18 - Float](https://github.com/nicm42/css-battle/blob/main/Battle%2018%20-%20Float)

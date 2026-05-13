@@ -1,0 +1,91 @@
+<div class="skull">
+  <div class="eye"></div>
+  <div class="eye right"></div>
+</div>
+<div class="teeth"></div>
+<div class="bone t l"><div class="chef"></div></div>
+<div class="bone t r"><div class="chef"></div></div>
+<div class="bone b l"><div class="chef"></div></div>
+<div class="bone b r"><div class="chef"></div></div>
+<style>
+  body {
+    background: #000000;
+  }
+  div {
+    background: #ffffff;
+    position: absolute;
+  }
+  .skull {
+    width: 150px;
+    top: 110px;
+    left: 125px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .eye {
+    background: #000000;
+    width: 40px;
+    height: 50px;
+    top: 25px;
+    left: 25px;
+    border-radius: 20px / 25px;
+    rotate: 65deg;
+  }
+  .right {
+    rotate: -65deg;
+    left: 85px;
+  }
+  .teeth {
+    width: 55px;
+    height: 20px;
+    top: 220px;
+    left: 173px;
+    background: linear-gradient(
+      90deg,
+      #ffffff 15px,
+      #000000 15px,
+      #000000 20px,
+      #ffffff 20px,
+      #ffffff 35px,
+      #000000 35px,
+      #000000 40px,
+      #ffffff 40px
+    );
+  }
+  .bone {
+    width: 20px;
+    height: 20px;
+  }
+  .chef {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: -10px;
+    left: 12px;
+    box-shadow: 0 15px 0 0 #ffffff;
+  }
+  .t {
+    top: 103px;
+  }
+  .b {
+    top: 197px;
+  }
+  .l {
+    left: 113px;
+  }
+  .r {
+    left: 267px;
+  }
+  .t.l {
+    rotate: -135deg;
+  }
+  .t.r {
+    rotate: -45deg;
+  }
+  .b.l {
+    rotate: 135deg;
+  }
+  .b.r {
+    rotate: 45deg;
+  }
+</style>
